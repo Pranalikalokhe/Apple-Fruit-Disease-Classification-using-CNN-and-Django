@@ -1,0 +1,33 @@
+/* Center the content in the navbar */
+.navbar {
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+    height: 90px;             /* Adjust height as needed */
+}
+
+/* Custom CSS to center navbar-brand */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+}
+
+.navbar-brand {
+    font-size: 40px;         /* Adjust the font size */
+    font-weight: bold;
+    color: #fff;             /* White color for text */
+    text-align: center;      /* Centers text inside navbar */
+
+}
+
+/* Center and style the Prediction Result text */
+.prediction-title {
+    text-align: center;     /* Center the text horizontally */
+    font-size: 40px;        /* Increase font size */
+    font-weight: bold;      /* Make text bold */
+    margin-top: 20px;       /* Optional: add spacing from top */
+    color: #fff; /* Optional: change text color */
+}
+
+
